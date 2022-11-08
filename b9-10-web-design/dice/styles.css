@@ -1,0 +1,37 @@
+body {
+  height: 98.17vh;
+  width: 98.41vw;
+  place-items: center;
+  display: grid;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.die {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border: 10px solid white;
+  background-color: whitesmoke;
+  border-radius: 25%;
+}
+
+.dot {
+  opacity: 0;
+  background-color: #111111;
+  border: 10px black solid;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  transition: opacity, left, top, 0.3s;
+}
