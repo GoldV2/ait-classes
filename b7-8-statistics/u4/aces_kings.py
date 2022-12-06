@@ -10,3 +10,4 @@ for _ in range(trials):
     wins += 1
 
 print(f"The probability of winning this game is {wins/trials} for {trials} games")
+# The probability of winning this game is 0.400352 for 1000000 games
